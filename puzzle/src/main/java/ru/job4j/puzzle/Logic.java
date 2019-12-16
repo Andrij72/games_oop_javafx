@@ -82,7 +82,7 @@ public class Logic {
             }
             System.out.println();
         }
-        if (count == 5) {
+        if (count == table.length) {
             result = true;
         }
         return result;
