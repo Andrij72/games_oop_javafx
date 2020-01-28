@@ -20,9 +20,10 @@ public class BishopBlackTest {
 
     @Test
     public void way() {
-        BishopBlack bishopBlack = new BishopBlack(C1);
-        Cell[] res = bishopBlack.way(C1, G5);
-        Cell[] expected = {D2, E3, F4, G5};
+        BishopBlack bishopBlack = new BishopBlack(G5);
+        Cell[] res = bishopBlack.way(G5, C1);
+        //Cell[] expected = {D2, E3, F4, G5};
+        Cell[] expected = {F4, E3, D2, C1};
         System.out.printf("result: %s____expected: %s",Arrays.toString(res), Arrays.toString(expected));
         assertArrayEquals(res, expected);
 }
