@@ -18,7 +18,6 @@ notifications:
       -akulmmm@gmail.com
     on_success: never # default: change
     on_failure: always # default: always
-
 env:
   global:
     CODECOV_TOKEN="1544ebbe-48ae-485d-9afb-016cea0d3b49"
